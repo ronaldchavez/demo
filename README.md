@@ -16,17 +16,17 @@ demo.js
 Methods
 
 fetchData:
-# or 
+
 Gets the data returned by the faunaDb api in Json format
 
 addTodoItem:
-# or
+
 create a new record by sending the newdemo field
 
 demoItems.js
 
 Methods
-# or
+
 
 handlecheck:
 update name state by calling apiUpdateData
@@ -37,7 +37,7 @@ remove the record by calling apiDeleteData
 https://docs.fauna.com/fauna/current/
 
 Crud:
-# or
+
 apiGetData
 
 apiCreateData
