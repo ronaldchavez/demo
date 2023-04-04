@@ -17,7 +17,6 @@ function Demo() {
         const newData = await res.json();
         setData(newData);
     }
-
     useEffect(() => {
         fetchData();
     }, [newdemo]);
