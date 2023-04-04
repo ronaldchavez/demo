@@ -23,10 +23,10 @@ function Demo() {
 
   const handleinput = (e) => {
     setnewdemo(e.target.value);
-  setInputData({
-    ...inputData,
-    newdemo: e.target.value,
-  });
+    setInputData({
+      ...inputData,
+      newdemo: e.target.value,
+    });
   };
   const HandleSubmit = (e) => {
     addTodoItem();
